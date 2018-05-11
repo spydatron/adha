@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ http://www.adhafrica.org
+RewriteCond %{HTTP_HOST} !^www\.adhafrica\.org$ [NC]
+RewriteRule ^(.*)$ http://www.adhafrica.org/$1 [R=301,L]
+</IfModule>
