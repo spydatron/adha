@@ -12,11 +12,14 @@ import {EventsComponent} from './components/events/events.component';
 import {GalleryComponent} from './components/gallery/gallery.component';
 import {ContactComponent} from './components/contact/contact.component';
 import {HashLocationStrategy, LocationStrategy, PathLocationStrategy} from "@angular/common";
+import {NavbarComponent} from "./components/navigation/navbar.component";
+import {FooterComponent} from "./components/footer/footer.component";
 
 @NgModule({
   declarations: [
     AppComponent,
-    // NavbarComponent,
+    NavbarComponent,
+    FooterComponent,
     WelcomeComponent,
     HomeComponent,
     AboutComponent,

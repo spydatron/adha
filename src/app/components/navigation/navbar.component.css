@@ -1,70 +1,18 @@
-.affix {
-      top: 0;
-      width: 100%;
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
   }
-
-  .affix + .container-fluid {
-      padding-top: 70px;
-  }
-
-  .navbar.transparent.navbar-inverse .navbar-inner {
-   background-color: rgba(0,0,0,0.5);
-}
-  .exnavbar {
-   background: none;
-   color: #fff;
 }
 
-.navbar-brand {
-  float: none;
-  }
-
-.navbar-center
-{
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-    text-align: center;
-    margin: auto;
-  height:100%;
+.card {
+  height: 100%;
 }
 
-
-.banner {
-   background-color: rgba(0,0,0,0.5);
-   width: 100%;height: 550px; background:red;
-}
-.inner-banner {
-   border: 0;
-   border-radius: 0;
-    background: rgba(0,0,0,0.5);
-}
-
-.navbar-default {
-	background-color:transparent !important;
-	border-color:transparent;
-	background-image:none;
-	box-shadow:none;	
-}
-
-
-.navbar-default .navbar-nav>li>a {
-   font-size:20px; 
-   color:#fff; 
-}
-
-
-.navbar-nav { 
-   margin:40px 0;
-}
-
-.navbar-nav { 
-   margin:40px 0;
-}
-
-.navbar-toggle {
-      margin:10px 0; 
-      background:#36C; 
-      color:#FFF;
+#navbar-adha-logo{
+  height: 20%;
+  width: 20%;
 }
