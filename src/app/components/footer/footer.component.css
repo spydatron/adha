@@ -11,3 +11,23 @@ body {
 .card {
   height: 100%;
 }
+/*footer {*/
+  /*position: absolute;*/
+  /*background-color: black;*/
+  /*bottom: 0;*/
+  /*left:0;*/
+  /*width: 100%;*/
+/*}*/
+
+/*.footer{*/
+  /*position: absolute;*/
+  /*right: 0;*/
+  /*bottom: 0;*/
+  /*left: 0;*/
+  /*padding: 1rem;*/
+  /*!*background-color: black;*!*/
+  /*text-align: center;*/
+/*}*/
+.footer, .push {
+  height: 155px; /* .push must be the same height as .footer */
+}

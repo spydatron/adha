@@ -1,13 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 /*@import '~bootstrap/dist/css/bootstrap.css';*/
-@import "~bootstrap/dist/css/bootstrap.css";
+/*@import "~bootstrap/dist/css/bootstrap.css";*/
 
-body {
+html, body {
   padding-top: 54px;
+  height: 100%;
 }
 
 @media (min-width: 992px) {
-  body {
+  html, body {
     padding-top: 56px;
+    height: 100%;
   }
 }

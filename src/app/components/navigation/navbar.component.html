@@ -1,34 +1,39 @@
 
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-      <img src="assets/img/adhaLogo.jpg" alt="adha" id="navbar-adha-logo">
-      ADHA
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link"  routerLink="home">Home
-            <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="events">Events</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="gallery">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="contact">Contact</a>
-        </li>
-      </ul>
-    </div>
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" routerLink="home">
+  <!--<img src="assets/img/adhaLogo.jpg" alt="adha" id="navbar-adha-logo">-->
+  <!--ADHA-->
+  <!--<h6 class="navbar-text logo-text">Ultimate Trade Sizer</h6>-->
+  <img src="assets/img/adhaLogo.jpg" id="navbar-adha-logo" width="80" height="80" class="d-inline-block align-top" alt="">
+  <h6 class="navbar-text logo-text text-white ">Africa Diabetes & Hypertension <br>Association</h6>
+  </a>
+
+  <div class="collapse navbar-collapse navbar-items" id="navbarResponsive">
+    <ul class="nav navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link"  routerLink="home">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="events">Events</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="gallery">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="contact">Contact</a>
+      </li>
+    <!--<form class="form-inline my-2 my-lg-0">-->
+      <!--<input class="form-control mr-sm-2" type="text" placeholder="Search">-->
+      <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+    <!--</form>-->
+    </ul>
   </div>
 </nav>
