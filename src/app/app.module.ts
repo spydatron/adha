@@ -14,6 +14,7 @@ import {ContactComponent} from './components/contact/contact.component';
 import {HashLocationStrategy, LocationStrategy, PathLocationStrategy} from "@angular/common";
 import {NavbarComponent} from "./components/navigation/navbar.component";
 import {FooterComponent} from "./components/footer/footer.component";
+import {NewsComponent} from "./components/news/news.component";
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import {FooterComponent} from "./components/footer/footer.component";
     AboutComponent,
     EventsComponent,
     GalleryComponent,
-    ContactComponent
+    ContactComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule, routes, HttpModule

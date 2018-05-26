@@ -14,13 +14,25 @@
       <!--<p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>-->
       <!--<a class="btn btn-primary btn-lg" href="#">Call to Action!</a>-->
       <div class="list-group">
-        <a href="#" class="list-group-item list-group-item-action active">
-          Event 0 with avatar
+
+        <a routerLink="/events" class="list-group-item list-group-item-action">
+          <div class="span4">
+            <img class="img-responsive profile-avatar-pop event-avarter d-inline-block align-top" src="assets/img/buea1.jpg" style="float:left"/>
+            <div class="content-heading"><strong> Sensitization and Health Education Campaign </strong><p>Great Soppo Integrated Health Centre Buea</p></div>
+            <!--<p style="clear:both">Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>-->
+          </div>
         </a>
-        <a href="#" class="list-group-item list-group-item-action">Event 1 with avatar</a>
-        <a href="#" class="list-group-item list-group-item-action">Event 2 with avatar</a>
-        <a href="#" class="list-group-item list-group-item-action">Event 3 with avatar</a>
-        <a href="#" class="list-group-item list-group-item-action disabled">Event 4 with avatar</a>
+        <a routerLink="/events" class="list-group-item list-group-item-action">
+          <div class="span4">
+            <img class="img-responsive profile-avatar-pop event-avarter d-inline-block align-top" src="assets/img/ibis.jpg" style="float:left"/>
+            <div class="content-heading"><strong> Reunion de prise de contact </strong><p>Hôtel Ibis Paris, Bastille Opéra 11ème 15 Rue Breguet 75011 Paris</p></div>
+            <!--<p style="clear:both">Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>-->
+          </div>
+        </a>
+
+        <!--<a href="#" class="list-group-item list-group-item-action">Event 2 with avatar</a>-->
+        <!--<a href="#" class="list-group-item list-group-item-action">Event 3 with avatar</a>-->
+        <!--<a href="#" class="list-group-item list-group-item-action disabled">Event 4 with avatar</a>-->
       </div>
 
     </div>
@@ -31,7 +43,7 @@
   <!-- Call to Action Well -->
   <div class="card text-white bg-inverse my-4 text-center">
     <div class="card-body">
-      <p class="text-white m-0">This call to action card is a great place to showcase some important information or display a clever tagline!</p>
+      <p class="text-white m-0">Ensemble Contre Le Diabète et L'Hypertension</p>
     </div>
   </div>
 
@@ -40,8 +52,10 @@
     <div class="col-md-4 mb-4">
       <div class="card h-100">
         <div class="card-body">
-          <h2 class="card-title">Card One</h2>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+          <h2 class="card-title text-center">HEALTH TIPS</h2>
+          <img class="img-fluid rounded" src="assets/img/tips.jpg" width="200" height="100" alt="">
+          <br><br>
+          <!--<p class="card-text"> text here </p>-->
         </div>
         <div class="card-footer">
           <a href="#" class="btn btn-primary">More Info</a>
@@ -52,11 +66,13 @@
     <div class="col-md-4 mb-4">
       <div class="card h-100">
         <div class="card-body">
-          <h2 class="card-title">Card Two</h2>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
+          <h2 class="card-title text-center">OBJECTIVES</h2>
+          <p class="card-text">
+            The ADHA ASSOCIATION aims to create a better understanding amongst all people in Africa about the condition of diabetes and/or hypertension through... </p>
+          <br><br>
         </div>
         <div class="card-footer">
-          <a href="#" class="btn btn-primary">More Info</a>
+          <a routerLink="/events" class="btn btn-primary">More Info</a>
         </div>
       </div>
     </div>
@@ -64,11 +80,12 @@
     <div class="col-md-4 mb-4">
       <div class="card h-100">
         <div class="card-body">
-          <h2 class="card-title">Card Three</h2>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+          <h2 class="card-title text-center">LATEST NEWS</h2>
+          <p class="card-text"> Dr. Hasaan Shamsi Pasha working in one of Jeddah's hospital as Heart Specialist, had become Sugar patient himself with as high as ...</p>
+          <br><br>
         </div>
         <div class="card-footer">
-          <a href="#" class="btn btn-primary">More Info</a>
+          <a routerLink="/news" class="btn btn-primary">More Info</a>
         </div>
       </div>
     </div>

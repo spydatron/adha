@@ -44,7 +44,16 @@ body {
 
 }
 
+/*h6 span{*/
+  /*display: inline-block;*/
+/*}*/
 
+@media screen and (max-width:100px) {    /* Max Width depends on your design */
+  .full-width-breakpoint {             /* only experimentation or */
+    display:none;                    /* calculation will reveal */
+    line-height:0;                   /* the best max-width */
+  }
+}
 
 .navbar-brand-name > img {
   padding: 0 15px 0 0;
@@ -55,7 +64,7 @@ body {
 }
 
 .navbar-text{
-  margin-top: 6%;
+  margin-top: 8%;
   padding-left: 4%;
 }
 
@@ -64,3 +73,11 @@ body {
   /*margin-left: 60% !important;*/
 }
 
+@media only screen and (min-width: 768px) {
+  .brnodisplay {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px){
+  .rwd-break { display: none; }
+}

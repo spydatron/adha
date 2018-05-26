@@ -1,0 +1,11 @@
+.container {
+  padding-top: 54px;
+  /*height: 100%;*/
+}
+
+@media (min-width: 992px) {
+  .container {
+    padding-top: 56px;
+    /*height: 100%;*/
+  }
+}

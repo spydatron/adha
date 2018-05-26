@@ -14,3 +14,22 @@
   /*height: 675px;*/
   /*width: 900px;*/
 /*}*/
+.event-avarter{
+  float: left;
+  height: 80px;
+  width: 80px;
+  /*padding: 0 20px 20px 0;*/
+}
+
+.latest-event-text{
+  /*margin-top: 6%;*/
+  /*padding-left: 50%;*/
+}
+
+.content-heading{
+  padding-left: 32%;
+}
+
+.card-text{
+  padding-left: 5%;
+}
